@@ -42,11 +42,11 @@ const AppLayout: React.FC = () => {
       <div className="bg-gradient-to-r from-gray-900 via-gray-800 to-orange-600 text-white">
         <div className="max-w-6xl mx-auto px-4 py-6">
           <div className="text-center">
-            <div className="bg-white/10 rounded-lg p-4 backdrop-blur-sm mb-4">
+            <div className="inline-block w-full max-w-2xl mx-auto py-[5%]">
               <img 
                 src="https://d64gsuwffb70l.cloudfront.net/68163cb84ec074a1d731179e_1756692504621_92139b4d.png"
                 alt="PumpLine Logo"
-                className="w-full max-w-2xl mx-auto h-auto object-contain"
+                className="block w-full h-auto object-contain"
               />
             </div>
             <p className="text-lg text-orange-100 max-w-3xl mx-auto">
